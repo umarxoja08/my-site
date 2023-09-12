@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.car {
+    position: absolute;
+    top: 50%;
+    left: -200px; /* Mashina boshlang'ich x-koordinatasi */
+    transition: left 2s linear; /* Chapga harakatlanish vaqtini belgilash */
+}
+
+.car img {
+    width: 200px; /* Mashina rasmi o'lchami */
+    height: auto;
+}
+
